@@ -244,6 +244,10 @@ WHERE rs.return_id IS NULL;
 **Task 13: Identify Members with Overdue Books**  
 Write a query to identify members who have overdue books (assume a 30-day return period). Display the member's_id, member's name, book title, issue date, and days overdue.
 
+**- issued_status == members == books == return_status
+**- filter books which is return
+**- overdue time > 30 days
+
 ```sql
 SELECT 
     ist.issued_member_id,
@@ -266,7 +270,7 @@ WHERE
     rs.return_date IS NULL
     AND
     (CURRENT_DATE - ist.issued_date) > 30
-ORDER BY 1
+ORDER BY ist.issued_member_id;
 ```
 
 
