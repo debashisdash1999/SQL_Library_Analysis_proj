@@ -3,8 +3,7 @@
 ## Project Overview
 
 **Project Title**: Library Management System  
-**Level**: Intermediate  
-**Database**: `library_db`
+**Database**: `library_project`
 
 This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
 
@@ -22,7 +21,7 @@ This project demonstrates the implementation of a Library Management System usin
 
 <img width="1101" height="631" alt="library_database_setup" src="https://github.com/user-attachments/assets/dd19000d-ee11-40a6-b9be-abb2fdab8d59" />
 
-- **Database Creation**: Created a database named `library_db`.
+- **Database Creation**: Created a database named `library_project`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 
 ```sql
