@@ -197,7 +197,7 @@ issued_status as ist
 JOIN
 books as b
 ON b.isbn = ist.issued_book_isbn
-GROUP BY 1
+GROUP BY b.category
 ```
 
 9. **List Members Who Registered in the Last 180 Days**:
