@@ -256,7 +256,7 @@ SELECT
     m.member_name,
     bk.book_title,
     ist.issued_date,
-    -- rs.return_date,
+    rs.return_date,
     CURRENT_DATE - ist.issued_date as over_dues_days
 FROM issued_status as ist
 JOIN 
