@@ -17,9 +17,10 @@ This project demonstrates the implementation of a Library Management System usin
 
 ## Project Structure
 
-### 1. Database Setup: ERD
+### 1. ERD: Relation between tables (Data Modelling)
 
-![ERD](https://github.com/user-attachments/assets/65dbf944-7351-4eb4-84c3-3b4d29170717)
+<img width="1893" height="750" alt="ERD" src="https://github.com/user-attachments/assets/b5d81b61-4576-4fb1-8460-f0355a94f26d" />
+
 
 - **Database Creation**: Created a database named `library_project`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
