@@ -154,10 +154,10 @@ WHERE issued_emp_id = 'E101'
 ```sql
 SELECT
     issued_emp_id,
-    COUNT(*)
+    COUNT(issued_id) as total_book_issued
 FROM issued_status
-GROUP BY 1
-HAVING COUNT(*) > 1
+GROUP BY issued_emp_id
+HAVING COUNT(issued_id) > 1
 ```
 
 ### 3. CTAS (Create Table As Select)
